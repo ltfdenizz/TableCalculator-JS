@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;800;900&family=Poppins:wght@400;500;600;700;800;900&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(114, 145, 151);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    
+
+    
+}
+
+.heading{
+    color: rgb(221, 253, 14);
+    text-shadow: 2px 2px 20px rgb(179, 163, 49);
+    letter-spacing: 3px;
+    border-bottom: 4px solid rgb(188, 227, 12);
+    
+}
+.container{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    width: 60vw;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.greet{
+
+    align-self: flex-start;
+    
+    font-size: 21px;
+    display: flex;
+    align-items: center;
+}
+.greet input{
+    border: none;
+    outline: none;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Rubik Pixels';
+
+}
+.ins{
+    background-color: transparent;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+.double{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    
+}
+.form-harcama, .form-fiyat{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 30px;
+
+}
+
+input{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.ekle-btn{
+    background-color: red;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;}
+
+    .form-durum{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .toplam{
+        background-color: rgb(0, 35, 35);
+        padding: 10px 40px;
+        color: white;
+        border-radius: 10px;
+        font-size: 21px;
+        font-family: Arial, Helvetica, sans-serif;
+       
+        
+    }
+    .toplam span{
+        color: aqua;
+    }
+    .liste{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 40px;
+        width: 100%;
+        overflow: auto;
+    }
+    .harcama{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: rgba(37, 37, 37, 0.4) -5px 5px, rgba(29, 27, 28, 0.3) -10px 10px, rgba(28, 26, 27, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(36, 34, 35, 0.05) -25px 25px;
+        padding: 5px 10px;
+        border-radius: 50px;
+        border-top: 2px solid   rgba(47, 44, 46, 0.4);
+        ;
+    }
+    .harcama h2:nth-child(2){
+        color:  rgb(239, 48, 48);
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+    .buttons img{
+       
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        cursor: pointer;
+       
+    }
+    .buttons img:nth-child(1){
+        width: 60px;
+        height: 60px;
+    }
+
+    .payed{
+        opacity: 0.5;
+     
+    }
+    .payed h2:nth-child(2){
+       color: rgb(151, 251, 0)
+    }
+    .payed h2:nth-child(1){
+        text-decoration: line-through;
+    }
